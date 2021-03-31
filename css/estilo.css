@@ -1,0 +1,148 @@
+body{
+    font-family: arial;
+    background-color: #fcfcfc;
+}
+
+.estilo-lista{
+    list-style-type: none;
+}
+
+.titulo-1{
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+
+}
+
+.titulo-2{
+    text-align: center;
+    margin: 0;
+
+}
+
+.titulo-4{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo{
+    width: 500px;
+    margin: auto;
+}
+.conversoes{
+    display: block;
+    padding: 3px;
+    color: white;
+}
+
+/*Primeira div*/
+.conversoes:nth-of-type(1) {
+    margin-top: 30px;
+    border-radius: 5px 5px 0 0;   
+}
+
+/*Ultima div div*/
+.conversoes:nth-last-of-type(1) {
+    border-radius: 0 0 5px 5px;
+}
+
+/*div par*/
+.conversoes:nth-of-type(2n){
+    background-color: black;
+
+}
+
+/*div impar*/
+.conversoes:nth-of-type(2n + 1){
+    background-color: tomato;
+}
+
+
+.link-conversao{
+    color:white;
+}
+
+.form-converter{
+    width: 500px;
+    height: 340px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    border: 1px solid #c7c7c7;
+}
+
+.campo-texto{
+    display: block;
+    width: 90%;
+    border:none;
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+    padding: 10px;
+}
+.col-6{
+    width: 50%;
+    float: left;
+    margin-top:15px;
+}
+.slc-campo{
+    display: block;
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+
+.btn-converter{
+    padding: 15px;
+    border:none;
+    background-color: tomato;
+    border-radius: 10px;
+    color:white;
+    display: block;
+    margin-top: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor:pointer;
+    transition: background-color .5s;
+}
+
+.btn-converter:hover{
+    background-color: #000;
+}
+.btn-converter:focus{
+    background-color: #000;
+}
+
+.resultado{
+    visibility: visible;
+    width: 500px;
+    height: 150px;
+    padding: 25px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    border: 1px solid #c7c7c7;
+
+}
+
+#retorno{
+    font-size: 16px;
+}
+
+
+.voltar{
+   margin-bottom: 20px;
+   padding: 3px;
+}
+
+.rodape{
+    position: absolute;
+    bottom:0;
+}
+
